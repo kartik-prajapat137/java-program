@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../shivam c"
+		},
+		{
+			"path": "../../c++"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../coading c"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"basic_for_loop.C": "cpp"
+		}
+	}
+}

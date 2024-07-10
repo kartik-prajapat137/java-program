@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"java.project.sourcePaths": [
+			"java info pavansir/Assig7_oops_java",
+			"java info pavansir/Assig6_obj_inher_classes_Java",
+			"java info pavansir/new java"
+		],
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

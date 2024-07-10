@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 75px;
+    border: solid;
+    background-color: black;
+    border-color: aliceblue;
+    border: 2px;
+
+}
+div1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: solid;
+    border-color: aliceblue;
+}

@@ -1,0 +1,18 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    /* transition-duration: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in; /* steps(5)
+    transition-delay: 3s; */
+    transition: all 2s ease-in-out 2s;
+}
+div:hover {
+    background-color: cyan;
+    font-size: 20px;
+}
+div:active {
+    background-color:crimson;
+}

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../coading c"
+		},
+		{
+			"path": "../c++"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"RECTANGLE.C": "cpp"
+		}
+	}
+}

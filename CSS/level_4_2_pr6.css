@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(248, 111, 134);
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+    display: inline;
+}
+.outer {
+    height: 500px;
+    width: 500px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

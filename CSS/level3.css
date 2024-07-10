@@ -1,0 +1,27 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(51, 255, 0);
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width: 5em;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+}
+#box3{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    display: inline-block;
+    font-size: 10px;
+}
+.box4{
+    height: 200vh;
+    width: 100vh;
+    background-color: rgb(119, 128, 223);
+    font-size: 10px;
+    
+}
