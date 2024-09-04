@@ -392,10 +392,14 @@ void entrChang1_to_last44(){
          first = n%10;
          n = n/10; 
          i++;
-    }while(temp<i){
+    }
+    System.out.println("total copunt nums : "+i);
+    while(temp<i){
         mul = mul*10;
         temp++;
     }
+    System.out.println("total into : "+mul);
+
     int first_delete = num%mul;
      int local = (mul*last)+first_delete;
      int last_delete = local/10;
@@ -433,7 +437,7 @@ void Sum_frst_lst_46(){
 public class j1_loop {
     public static void main(String[] args) {
         loop l = new loop();
-        // l.N_natural2();
+        // l.N_n  atural2();
         // l.s_Nnum3();
         // l.table_Nnum4();
         // l.factorial5();
@@ -448,7 +452,7 @@ public class j1_loop {
         // l.alpha_Lower_15();
         // l.integer_Anth16();
         // l.sesres_17();
-        l.series_18();
+        // l.series_18();
         // l.AbCd_32();
         // l.Alpha_Revers_33();
         // l.count_nDigits35();
@@ -459,7 +463,7 @@ public class j1_loop {
         // l.Even_Odd_count_D_40();
         // l.Lcm_41();
         // l.HCF_42();
-        // l.entrChang1_to_last44();
+        l.entrChang1_to_last44();
         // l.Sum_frst_lst_46();
     }
 }

@@ -16,6 +16,7 @@ console.log(newstr.replaceAll("K","R"));
 console.log(str.charAt(2));
 console.log(str.charCodeAt(2));
 console.log();
+console.log("heloo everyone i am back")
 
 
 

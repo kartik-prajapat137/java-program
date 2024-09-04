@@ -121,7 +121,7 @@ void Short_4(){
 }
 //Q.5 Find the kth largest and kth smallest element in array.
 void kth_larg_small_5(){
-    int arr[]={2,3,4,56,6,5,7,9,0,34,76,10};
+    int arr[]={2,2,3,4,56,6,5,7,9,0,34,76,10,10};
     System.out.print("Enter largest kth element in the array bw 1  to 12 = ");
         int n = sc.nextInt();
         System.out.print("Enter Smalest kth element in the array bw 1  to 12 = ");
@@ -139,8 +139,32 @@ void kth_larg_small_5(){
         for(int i=0; i<arr.length-1; i++){
         System.out.print(arr[i]+", ");
     }
-    System.out.println("\nSmallest elment is"+n+" = "+arr[n-1]);
-    System.out.println("Largest elment is"+m+" = "+arr[arr.length-m-1 ]);
+    System.out.println(m+"th Largest elment is = "+arr [arr.length-m-1 ]);
+    System.out.println("\n"+n+"th Smallest elment is = "+arr[n-1]);
+
+    
+}
+void kth_larg_small_52(){
+    int arr[]={2,2,3,4,56,6,5,7,9,0,34,76,10,10};
+    System.out.print("Enter largest kth element in the array bw 1  to 12 = ");
+        int n = sc.nextInt();
+        System.out.print("Enter Smalest kth element in the array bw 1  to 12 = ");
+        int m = sc.nextInt();
+    System.out.print("Arr of 2,3,4,56,6,5,7,9,0,34,76,10 =");
+    for(int i=0;i<arr.length; i++){
+        for(int j=0; j<arr.length-1-i; j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+        for(int i=0; i<arr.length-1; i++){
+        System.out.print(arr[i]+", ");
+    }
+    System.out.println("\n"+m+"th Largest elment is = "+arr [arr.length-m-1 ]);
+    System.out.println("\n"+n+"th Smallest elment is = "+arr[n-1]);
 
     
 }
@@ -905,6 +929,34 @@ void Max_configuration_rotat_array_21(){
         }System.out.println("Largest Value of arrray is = "+largest);
         System.out.println("Smallest Value of arrray is = "+smallest);
     }
+//26.2
+    void  largest_smallest_elem_array_26_2(){
+        System.out.print("Enter Size of an array = ");
+        int n = sc.nextInt();
+        System.out.println("Enter values in Array = ");
+        int arr[] = new int[n];
+        System.out.print("Enter kth Larg element in the array = ");
+        int klarg = sc.nextInt();
+        System.out.print("Enter kth Larg element in the array = ");
+        int ksmall = sc.nextInt();
+       
+
+        for(int i=0; i<arr.length; i++){
+             arr[i] = sc.nextInt();
+        }
+        int largest=arr[0],smallest=arr[0];                              
+
+        for(int j=0; j<arr.length; j++){
+
+            if(arr[j]>largest){
+                largest=arr[j];
+            }if(arr[j]<smallest){
+                smallest=arr[j];
+            }
+        }System.out.println("Largest Value of arrray is = "+largest);
+        System.out.println("Smallest Value of arrray is = "+smallest);
+    }
+
 
     // 27. is not present in the Asignment Questions.
     // 28. P is one-dimensional array of integers. Write a Java program search for a data VAL from P. If VAL is present in the array then “element found ” otherwise “element not found” should be displayed. 
@@ -1092,7 +1144,7 @@ public class j1_array {
         // arr.reverse_3_3();
         // arr.Short_4();
         // arr.kth_larg_small_5();
-        arr.occurance_5_1();   
+        // arr.occurance_5_1();   
         // arr.Short_0s_1s_2s_6();    
         // arr.Sub_Sum_7();
         // arr.saperate_posi_negative_8();
@@ -1103,7 +1155,7 @@ public class j1_array {
         // arr.First_repeating_13();
         // arr.First_non_repeating_14();
         // arr.equal_pair_0s_1s_15();
-        // arr.unsorted_pos_neg_pos_neg_3_16();
+        arr.unsorte3.d_pos_neg_pos_neg_3_16();
         // arr.array_sum_zero_17();
         // arr.max_sum_array_18();
         // arr.max_produc_array_19();

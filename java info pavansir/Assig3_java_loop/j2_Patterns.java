@@ -934,7 +934,7 @@ public class j2_Patterns {
         // pa.reverse_S_HAsh_RTrangle37();
         // pa.reverse_HOllowN_num_RTrangle38();
         // pa.reverse_12345_4321_123_RTrangle39();
-        // pa.S_RTrangle40();
+        pa.S_RTrangle40() ;
         // pa.A_BCD_EFGHI_Trangle41();
         // pa.reverse_54321_5432_RTrangle42();
         // pa.one_12_123_RTrangle43();
@@ -943,6 +943,6 @@ public class j2_Patterns {
         // pa.A_AB_ABC_RTrangle46();
         // pa.one_11_1S1_1SS1_RTrangle47();
         // pa.A_AB_A_C_A___DRTrangle48();
-        pa.one_10_101_1010_RTrangle49();
+        // pa.one_10_101_1010_RTrangle49();
     }
 }
